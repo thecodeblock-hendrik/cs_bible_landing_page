@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 12rem 0 0;
+  margin: 14rem 0 0;
   font-family: "Roboto", sans-serif;
 }
 
@@ -46,7 +46,6 @@ body {
   border: 2px solid steelblue;
   padding: 10px 20px;
   border-radius: 5px;
-  
 }
 #nav-bar a {
   text-decoration: none;
@@ -59,3 +58,88 @@ body {
   font-size: 2rem;
   padding-top: 0.5rem;
 }
+
+#about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 0;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+#about-section ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+#about-section li {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem;
+}
+
+#about-section li i {
+display: flex;
+  width: 2rem;
+  font-size: 3rem;
+  color: lightblue;
+  justify-content: center;
+}
+
+.about {
+    margin-left: 3rem;
+}
+
+#video-section {
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+#give-section {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5rem 0;
+}
+
+.give-bible-pack {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 17rem;
+  height: 25rem;
+  border: 2px solid steelblue;
+  margin: 0 1rem;
+  border-radius: 8px;
+}
+
+
+
+.give-bible-pack img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15rem;
+  height: 15rem;
+  
+}
+
+.free-add {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+    background-color: lightblue;
+    text-align: center;
+    
+}
+
