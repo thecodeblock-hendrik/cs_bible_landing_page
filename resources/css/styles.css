@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 12rem 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin: 0;
+  position: fixed;
+  top: 0;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header-img {
+  min-width: 15rem;
+  width: 25rem;
+  height: 10rem;
+  display: block;
+}
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+#nav-bar li {
+  margin-right: 20px;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.give {
+  border: 2px solid steelblue;
+  padding: 10px 20px;
+  border-radius: 5px;
+  
+}
+#nav-bar a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+#cta-section {
+  text-align: center;
+  margin: 10rem 0 0;
+  font-size: 2rem;
+  padding-top: 0.5rem;
+}
