@@ -6,6 +6,7 @@ html {
   font-family: "Original Surfer", sans-serif !important;
     font-weight: 400;
     font-style: normal;
+    scroll-padding: 25rem;
   
 }
 
@@ -118,15 +119,26 @@ body {
   margin: 5rem 0;
 }
 
-#give-section {
+#get-section {
   align-items: center;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   margin: 5rem 0 ;
+  height: 40rem;
 }
 
-.give-bible-pack {
+
+/*#get-section h2 {
+  
+  color: steelblue;
+  text-align: center;
+  font-size: 3rem;
+  width: 100%;
+}*/
+
+.get-bible-pack {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -138,7 +150,7 @@ body {
   border-radius: 8px;
 }
 
-.give-bible-pack img {
+.get-bible-pack img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -157,16 +169,22 @@ body {
   color: #fff;
 }
 
-.give-bible-pack {
+.free-add a,
+#submit a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.get-bible-pack {
 box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
-.give-bible-pack .free-pack-description,
-.give-bible-pack p {
+.get-bible-pack .free-pack-description,
+.get-bible-pack p {
   color: steelblue;
 }
 
-#form-section {
+#give-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -190,12 +208,15 @@ box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.
   box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#form-section h2 {
+#give-section h2,
+#get-section h2 {
   padding: 0.5rem;
   color: steelblue;
   font-size: 3.5rem;
   letter-spacing: 2px;
   text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
 }
 
 #form h3 {
