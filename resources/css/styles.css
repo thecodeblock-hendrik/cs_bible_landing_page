@@ -69,6 +69,8 @@ body {
 #cta-section h1 {
   margin: 0;
   color: steelblue;
+  font-size: 3.3rem;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 #about-section {
@@ -121,7 +123,7 @@ body {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 5rem 0;
+  margin: 5rem 0 ;
 }
 
 .give-bible-pack {
@@ -156,13 +158,87 @@ body {
 }
 
 .give-bible-pack {
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .give-bible-pack .free-pack-description,
 .give-bible-pack p {
   color: steelblue;
 }
+
+#form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+  width: 100%;
+  
+  
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  align-items: center;
+  width: 40%;
+  border: 1px solid steelblue;
+  border-radius: 5px;
+  padding: 10px 0 10px;
+  background-color: rgba(173, 216, 230, 0.1);
+  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#form-section h2 {
+  padding: 0.5rem;
+  color: steelblue;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  text-shadow: 4px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#form h3 {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 1.5px;
+  color: steelblue;
+ 
+}
+
+
+
+label {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  color: steelblue
+ 
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 50%;
+  
+}
+
+#submit {
+  margin: 2rem 0;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  width: 50%;
+  background-color: steelblue;
+  color: #fff;
+  text-align: center;
+}
+
 
 #footer {
     display: flex;
