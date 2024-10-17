@@ -125,18 +125,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 5rem 0 ;
-  height: 40rem;
-}
-
-
-/*#get-section h2 {
+  margin: 5rem 0;
+  min-height: 40rem;
   
-  color: steelblue;
-  text-align: center;
-  font-size: 3rem;
-  width: 100%;
-}*/
+
+}
 
 .get-bible-pack {
   display: flex;
@@ -146,7 +139,7 @@ body {
   width: 17rem;
   height: 25rem;
   border: 2px solid steelblue;
-  margin: 0 1rem;
+  margin: 1rem 1rem;
   border-radius: 8px;
 }
 
@@ -191,6 +184,7 @@ box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.
   align-items: center;
   margin-bottom: 10rem;
   width: 100%;
+
   
   
 }
@@ -201,6 +195,7 @@ box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.
   justify-content: center;    
   align-items: center;
   width: 40%;
+  min-width: 30rem;
   border: 1px solid steelblue;
   border-radius: 5px;
   padding: 10px 0 10px;
