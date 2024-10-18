@@ -168,9 +168,7 @@ body {
   color: #fff;
 }
 
-.get-bible-pack {
-box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
-}
+
 
 .get-bible-pack .free-pack-description,
 .get-bible-pack p {
@@ -200,7 +198,7 @@ box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.
   border-radius: 5px;
   padding: 10px 0 10px;
   background-color: rgba(173, 216, 230, 0.1);
-  box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 5px 7px 10px steelblue;
 }
 
 #give-section h2,
@@ -284,8 +282,72 @@ align-items: center;
 
 }
 
-#footer p::before,
-#footer p::after {
-  content: ' "';
-  font-size: 2rem;
+
+
+@media only screen and (max-width: 480px) {
+
+  html {
+      scroll-padding: 3rem;
+    
+  }
+
+  body {
+    margin: 5rem 0 0;
+    
+  }
+
+  #header {
+    padding: 10px 0 10px;
+  }
+
+  #header img {
+    display: none;
+}
+
+#nav-bar {
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+#cta-section {
+  
+  margin: 5rem 0 0;
+}
+
+#about-section {
+  
+  margin: 5rem 0 0;
+  padding: 8rem 2rem 5rem;
+  
+}
+
+iframe {
+  width: 25rem;
+
+}
+
+#form {
+  width: 25%;
+  min-width: 25rem;
+  padding: 10px 0 10px;
+  
+}
+
+#footer img {
+  display: none;
+
+}
+
+#footer p {
+  font-size: 1rem;
+
+}
+
+
+
+
+
+
+
 }
